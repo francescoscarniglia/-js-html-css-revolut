@@ -7,11 +7,11 @@ $(document).ready(function(){
   var dropDwnLinks = dropDown.children('a');
   var dropDwnMenus = dropDown.children('.dropdown-menu');
 
-  dropDwnLinks.click(function(){
+  dropDwnLinks.mouseenter(function(){
     var actualMenu = $(this).next('.dropdown-menu');
 
     dropDwnMenus.not(actualMenu).hide();
-    
+
     actualMenu.toggle();
   });
 
