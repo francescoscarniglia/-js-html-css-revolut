@@ -30,18 +30,12 @@ body {
   width: 100px;
 }
 
-
-.main-header .profile{
-
-}
-
 .main-header .navigation{
   flex-grow: 1;
   text-align: right;
 }
 
 .main-content {
-  background: green;
   flex-grow: 1;
 }
 

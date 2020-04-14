@@ -13,16 +13,9 @@ a:active {
 }
 
 .link-pink,
-a SUP {
+a sup {
   color: #d8338b;
 }
-
-a:hover SUP,
-a:focus SUP,
-a:active SUP{
-  font-weight: 600;
-}
-
 /* style buttons */
 .bg-links {
   background: #d8338b;
@@ -48,6 +41,9 @@ a:active SUP{
 
 .font-w-100 {
   font-weight: 100;
+}
+.font-w-400 {
+  font-weight: 400;
 }
 
 .font-w-700 {
@@ -92,13 +88,29 @@ a:active SUP{
   padding: 5px;
 }
 
+.dropdown-list li {
+  display: block;
+}
+
 .secondary-menu li:last-child{
   margin-left: 20px;
 }
 
+/* dropdown */
+.dropdown-li {
+  position: relative;
+}
 
-/* serve solo per debug */
-/* .prova {
-  margin: 20px;
-  padding: 20px;
-} */
+.dropdown-menu {
+  display: none; /* agisco con jQuery */
+  position: absolute;
+  width: 300px;
+  height: auto;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border:1px solid #e2e2e2;
+  text-align: left;
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0,.2);
+}
