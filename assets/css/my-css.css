@@ -30,7 +30,7 @@ a:active SUP{
 
 .btn {
   color: #fff;
-  padding: 6px 12px;
+  padding: 6px 18px;
   vertical-align: middle;
   border-radius:15px;
   text-align: center;
@@ -53,11 +53,49 @@ a:active SUP{
 .font-w-700 {
   font-weight: 700;
 }
+.upp-t {
+  text-transform: uppercase;
+}
+/* spacing */
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-10-0 {
+  padding: 10px 0px 10px 0px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
 
 .padding-tb-10 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.padding-tb-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.padding-tb-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* menu and list */
+.primary-menu li,
+.secondary-menu li{
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+}
+
+.secondary-menu li:last-child{
+  margin-left: 20px;
+}
+
 
 /* serve solo per debug */
 /* .prova {
