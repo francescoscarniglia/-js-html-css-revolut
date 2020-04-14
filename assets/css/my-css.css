@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap');
 
+/* style links */
 a {
   color: #a1a6ad;
   text-decoration: none;
@@ -22,6 +23,7 @@ a:active SUP{
   font-weight: 600;
 }
 
+/* style buttons */
 .bg-links {
   background: #d8338b;
 }
@@ -39,6 +41,7 @@ a:active SUP{
   box-shadow: 0px 3px 2px 1px rgba(0,0,0,.2);
 }
 
+/* style text */
 .small-t {
   font-size: .8em;
 }
@@ -57,7 +60,7 @@ a:active SUP{
 }
 
 /* serve solo per debug */
-.prova {
+/* .prova {
   margin: 20px;
   padding: 20px;
-}
+} */
